@@ -16,7 +16,7 @@ end
 
 result = `#{compiler_ruby} -wc "$TM_FILEPATH" 2&gt;&amp;1`
 print result
-TextMate.go_to :line =&gt; $1 if result =~ /:(\d+):/
+#TextMate.go_to :line =&gt; $1 if result =~ /:(\d+):/
 </string>
 	<key>input</key>
 	<string>document</string>
